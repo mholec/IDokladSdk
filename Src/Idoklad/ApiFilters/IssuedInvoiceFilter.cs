@@ -17,5 +17,6 @@
         public FilterItem NumericSequenceId { get; set; } = new FilterItem("NumericSequenceId");
         public ContainFilterItem DocumentNumber { get; set; } = new ContainFilterItem("DocumentNumber");
         public FilterItem IsPaid { get; set; } = new FilterItem("IsPaid");
+        public FilterItem PurchaserId { get; set; } = new FilterItem("PurchaserId");
     }
 }
