@@ -74,5 +74,14 @@ namespace IdokladSdk.Clients
         {
             return await GetAsync<Agenda>(ResourceUrl + "/" + agendaId);
         }
+
+        /// <summary>
+        /// GET api/Agendas/Current
+        /// Detail of the currently authorized agenda.
+        /// </summary>
+        public async Task<Agenda> CurrentAsync()
+        {
+            return await GetAsync<Agenda>(ResourceUrl + "/Current");
+        }
     }
 }

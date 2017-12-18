@@ -78,5 +78,14 @@ namespace IdokladSdk.Clients
         {
             return Get<Agenda>(ResourceUrl + "/" + agendaId);
         }
+
+        /// <summary>
+        /// GET api/Agendas/Current
+        /// Detail of the currently authorized agenda.
+        /// </summary>
+        public Agenda Current()
+        {
+            return Get<Agenda>(ResourceUrl + "/Current");
+        }
     }
 }
