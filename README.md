@@ -1,3 +1,5 @@
+<img src="https://mholec.visualstudio.com/DEV/_apis/build/status/NuGet%20Packages/IDoklad%20SDK" alt=""/>  <img src="https://mholec.vsrm.visualstudio.com/_apis/public/Release/badge/be71d668-1b9d-4604-ad78-f5d8d1f2194e/19/25" alt="" />
+
 # IDoklad SDK for Csharp
 
 **The SDK works directly with IDoklad API service. Below is described communication with the newest version IDoklad API 2.0**
