@@ -1,0 +1,13 @@
+# https://editorconfig.org
+
+# ignoruj predky a pouzij tento config
+root = true
+
+# vsechno je UTF-8
+[*]
+charset = utf-8
+
+# pouzivej 4 spaces
+[*.cs]
+indent_style = space
+indent_size = 4
