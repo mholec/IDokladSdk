@@ -7,9 +7,9 @@
     <ProjectGuid>{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleSampleApplication</RootNamespace>
-    <AssemblyName>ConsoleSampleApplication</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>IdokladSdk.TestApp</RootNamespace>
+    <AssemblyName>IdokladSdk.TestApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using IdokladSdk;
 using IdokladSdk.ApiFilters;
 using IdokladSdk.ApiModels;
 using IdokladSdk.Clients.Auth;
 
-namespace ConsoleSampleApplication
+namespace IdokladSdk.TestApp
 {
     class Program
     {

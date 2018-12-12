@@ -1,37 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSampleApplication", "Samples\ConsoleSampleApplication\ConsoleSampleApplication.csproj", "{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdokladSdk", "Src\Idoklad\IdokladSdk.csproj", "{EAFB58D7-3DBD-4374-9938-E15895F8AF62}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D17E1D16-B4F7-4085-B561-544D9880193B}"
-	ProjectSection(SolutionItems) = preProject
-		LICENSE = LICENSE
-		README.md = README.md
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{348DA516-96AA-4A20-A2C6-1018D5E3F881}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{1C406542-ADFC-4A0E-B051-D393EBCF237B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{098B7C91-AAED-443B-800E-9DEDD297149A}"
-	ProjectSection(SolutionItems) = preProject
-		NuGet\idokladsdk.nuspec = NuGet\idokladsdk.nuspec
-		NuGet\nuget.exe = NuGet\nuget.exe
-		NuGet\pack-build.bat = NuGet\pack-build.bat
-		NuGet\pack-local.bat = NuGet\pack-local.bat
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdokladSdk.Net451", "Src\IdokladSdk.Net451\IdokladSdk.Net451.csproj", "{E6BF756A-ABF2-46DB-B9AD-8DD6A22C2F5A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdokladSdk.Net452", "Src\IdokladSdk.Net452\IdokladSdk.Net452.csproj", "{FE486808-655C-4894-AF2A-94C146E91BCD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdokladSdk", "Src\Idoklad\IdokladSdk.csproj", "{EAFB58D7-3DBD-4374-9938-E15895F8AF62}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdokladSdk.Net46", "Src\IdokladSdk.Net46\IdokladSdk.Net46.csproj", "{963D5AC5-D3CA-4829-A5EC-D6E8EB6D4F0A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdokladSdk.Resources", "IdokladSdk.Resources\IdokladSdk.Resources.csproj", "{E6BE7914-A0C8-4130-BE3D-7981D91BE1E2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSampleApplication", "Samples\WebSampleApplication\WebSampleApplication.csproj", "{B8A1CF69-6513-47E6-B554-1A2903463481}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdokladSdk.TestApp", "Samples\IdokladSdk.TestApp\IdokladSdk.TestApp.csproj", "{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,45 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6BF756A-ABF2-46DB-B9AD-8DD6A22C2F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6BF756A-ABF2-46DB-B9AD-8DD6A22C2F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6BF756A-ABF2-46DB-B9AD-8DD6A22C2F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6BF756A-ABF2-46DB-B9AD-8DD6A22C2F5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE486808-655C-4894-AF2A-94C146E91BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE486808-655C-4894-AF2A-94C146E91BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE486808-655C-4894-AF2A-94C146E91BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE486808-655C-4894-AF2A-94C146E91BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAFB58D7-3DBD-4374-9938-E15895F8AF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EAFB58D7-3DBD-4374-9938-E15895F8AF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFB58D7-3DBD-4374-9938-E15895F8AF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFB58D7-3DBD-4374-9938-E15895F8AF62}.Release|Any CPU.Build.0 = Release|Any CPU
-		{963D5AC5-D3CA-4829-A5EC-D6E8EB6D4F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{963D5AC5-D3CA-4829-A5EC-D6E8EB6D4F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{963D5AC5-D3CA-4829-A5EC-D6E8EB6D4F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{963D5AC5-D3CA-4829-A5EC-D6E8EB6D4F0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6BE7914-A0C8-4130-BE3D-7981D91BE1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6BE7914-A0C8-4130-BE3D-7981D91BE1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6BE7914-A0C8-4130-BE3D-7981D91BE1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6BE7914-A0C8-4130-BE3D-7981D91BE1E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8A1CF69-6513-47E6-B554-1A2903463481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8A1CF69-6513-47E6-B554-1A2903463481}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8A1CF69-6513-47E6-B554-1A2903463481}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8A1CF69-6513-47E6-B554-1A2903463481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D} = {1C406542-ADFC-4A0E-B051-D393EBCF237B}
-		{E6BF756A-ABF2-46DB-B9AD-8DD6A22C2F5A} = {D17E1D16-B4F7-4085-B561-544D9880193B}
-		{FE486808-655C-4894-AF2A-94C146E91BCD} = {D17E1D16-B4F7-4085-B561-544D9880193B}
-		{EAFB58D7-3DBD-4374-9938-E15895F8AF62} = {D17E1D16-B4F7-4085-B561-544D9880193B}
-		{963D5AC5-D3CA-4829-A5EC-D6E8EB6D4F0A} = {D17E1D16-B4F7-4085-B561-544D9880193B}
-		{E6BE7914-A0C8-4130-BE3D-7981D91BE1E2} = {D17E1D16-B4F7-4085-B561-544D9880193B}
-		{B8A1CF69-6513-47E6-B554-1A2903463481} = {1C406542-ADFC-4A0E-B051-D393EBCF237B}
+		{76BB713E-FB6D-4A0E-AF95-FA18FF357C7D} = {348DA516-96AA-4A20-A2C6-1018D5E3F881}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1677235A-3181-4B1C-BF0C-6A093C1CA62C}
 	EndGlobalSection
 EndGlobal
