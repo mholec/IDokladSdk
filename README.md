@@ -65,7 +65,7 @@ For example, here is the entire flow of work with contacts.
 
 ## Supported frameworks
 
-From version 2.5.0 the SDK targets NET Standard 2.0. This standard version implements following frameworks
+From version 2.5.0 the SDK targets NET Standard 2.0. This version of standard is implemented by following frameworks:
 
 - .NET Core 2.0+
 - .NET Framework 4.6.1+
