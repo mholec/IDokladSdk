@@ -65,13 +65,22 @@ For example, here is the entire flow of work with contacts.
 
 ## Supported frameworks
 
-We currently support
-- .NET 4.5
-- .NET 4.5.1
-- .NET 4.5.2
-- .NET 4.6
+From version 2.5.0 the SDK targets NET Standard 2.0. This standard version implements following frameworks
+
+- .NET Core 2.0+
+- .NET Framework 4.6.1+
+- Mono 5.4+
+- Xamarin.iOS 10.14+
+- Xamarin.Mac 3.8+
+- Xamarin.Android 8.0+
+- UWP 10.0.16299+
+- Windows / Windows Phone 8.1+
+- WP Silverlight 8.0+
+- Unity 2018.1+
+
+Other (older) frameworks are supported in Nuget version < 2.5.0)
 
 ## NuGet
-You can install **SDK for iDoklad API** using the [NuGet](https://www.nuget.org)
+You can install **SDK for iDoklad API** using the [NuGet](https://www.nuget.org
 
 	PM> Install-Package IdokladSdk
