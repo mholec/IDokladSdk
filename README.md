@@ -81,6 +81,6 @@ From version 2.5.0 the SDK targets NET Standard 2.0. This version of standard is
 Other (older) frameworks are supported in Nuget version < 2.5.0)
 
 ## NuGet
-You can install **SDK for iDoklad API** using the [NuGet](https://www.nuget.org
+You can install **SDK for iDoklad API** using the [NuGet](https://www.nuget.org/packages/IdokladSdk)
 
 	PM> Install-Package IdokladSdk
