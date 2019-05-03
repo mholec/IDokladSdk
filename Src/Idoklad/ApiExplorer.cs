@@ -1,4 +1,4 @@
-﻿using IdokladSdk.Clients;
+using IdokladSdk.Clients;
 
 namespace IdokladSdk
 {
@@ -13,6 +13,7 @@ namespace IdokladSdk
         private PriceListClient _priceListClient;
         private ReceivedInvoiceClient _receivedInvoiceClient;
         private BankClient _bankClient;
+        private BankStatementsClient _bankStatementsClient;
         private ConstantSymbolClient _constantSymbolClient;
         private CountryClient _countryClient;
         private CurrencyClient _currencyClient;
@@ -55,6 +56,8 @@ namespace IdokladSdk
         public ReceivedInvoiceClient ReceivedInvoices => _receivedInvoiceClient ?? (_receivedInvoiceClient = new ReceivedInvoiceClient(_apiContext));
 
         public BankClient Banks => _bankClient ?? (_bankClient = new BankClient(_apiContext));
+
+        public BankStatementsClient BankStatements => _bankStatementsClient ?? (_bankStatementsClient = new BankStatementsClient(_apiContext));
 
         public ConstantSymbolClient ConstantSymbols => _constantSymbolClient ?? (_constantSymbolClient = new ConstantSymbolClient(_apiContext));
 
