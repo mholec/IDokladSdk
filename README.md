@@ -1,9 +1,23 @@
-<img src="https://mholec.visualstudio.com/DEV/_apis/build/status/NuGet%20Packages/IDoklad%20SDK" alt=""/>  <img src="https://mholec.vsrm.visualstudio.com/_apis/public/Release/badge/be71d668-1b9d-4604-ad78-f5d8d1f2194e/19/25" alt="" />
-[![NuGet](https://img.shields.io/nuget/v/IdokladSdk.svg?style=plastic)](https://www.nuget.org/packages/IdokladSdk)
+<a href="https://www.nuget.org/packages/IdokladSdk"><img src="https://img.shields.io/nuget/dt/IdokladSdk" alt=""></a>
 
-# IDoklad SDK for Csharp
+# [Deprecated] IDoklad SDK for C#
+<div>
+This repository is deprecated. <b><a href="https://github.com/Solitea/IdokladSdk">Check new iDoklad SDK repository</a> created by Solitea team.</b> It reflects the newest version of iDoklad API v3.0.
+</div>
 
-**The SDK works directly with IDoklad API service. Below is described communication with the newest version IDoklad API 2.0**
+## Choose the right version
+
+| API Version | API Status  | SDK Status  | SDK Source                                       | NuGet Version |
+|-------------|-------------|-------------|--------------------------------------------------|---------------|
+| iDoklad v3  | preview     | preview     | https://github.com/Solitea/IdokladSdk            | v3.x.x        |
+| iDoklad v2  | maintenance | maintenance | https://github.com/mholec/IDokladSdk             | v2.x.x        |
+| iDoklad v1  | maintenance | end of life | https://github.com/mholec/IDokladSdk/tree/SDK_V1 | v1.x.x        |
+
+
+
+# IDoklad SDK for iDoklad API v2
+
+**This SDK version works directly with IDoklad API service. Below is described communication with the IDoklad API v2**
 
 Legacy version of SDK 1.0 is available in special branch: **[SDK_V1](https://github.com/mholec/idoklad-sdk-csharp/tree/SDK_V1)**. We recommend to use this version of SDK. This version fully supports newest version of iDoklad API.
 
